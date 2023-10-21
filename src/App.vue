@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SampleComponent from './components/SampleComponent.vue'
+</script>
 
 <template>
-  <main>Main</main>
+  <main><SampleComponent /></main>
 </template>
 
 <style scoped>
