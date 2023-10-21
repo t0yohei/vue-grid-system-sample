@@ -5,22 +5,22 @@ import GridColumn from './layouts/GridColumn.vue'
 
 <template>
   <GridLayout>
-    <GridColumn :pc="4">
+    <GridColumn :pc="4" :tbl="6" :sp="12">
       <div class="area">Area 1</div>
     </GridColumn>
-    <GridColumn :pc="4">
+    <GridColumn :pc="4" :tbl="6" :sp="12">
       <div class="area">Area 2</div>
     </GridColumn>
-    <GridColumn :pc="4">
+    <GridColumn :pc="4" :tbl="6" :sp="12">
       <div class="area">Area 3</div>
     </GridColumn>
-    <GridColumn :pc="4">
+    <GridColumn :pc="4" :tbl="6" :sp="12">
       <div class="area">Area 4</div>
     </GridColumn>
-    <GridColumn :pc="4">
+    <GridColumn :pc="4" :tbl="6" :sp="12">
       <div class="area">Area 5</div>
     </GridColumn>
-    <GridColumn :pc="4">
+    <GridColumn :pc="4" :tbl="6" :sp="12">
       <div class="area">Area 6</div>
     </GridColumn>
   </GridLayout>
