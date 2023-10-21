@@ -1,15 +1,28 @@
 <script setup lang="ts">
 import GridLayout from './layouts/GridLayout.vue'
+import GridColumn from './layouts/GridColumn.vue'
 </script>
 
 <template>
   <GridLayout>
-    <div class="area">Area 1</div>
-    <div class="area">Area 2</div>
-    <div class="area">Area 3</div>
-    <div class="area">Area 4</div>
-    <div class="area">Area 5</div>
-    <div class="area">Area 6</div>
+    <GridColumn :pc="4">
+      <div class="area">Area 1</div>
+    </GridColumn>
+    <GridColumn :pc="4">
+      <div class="area">Area 2</div>
+    </GridColumn>
+    <GridColumn :pc="4">
+      <div class="area">Area 3</div>
+    </GridColumn>
+    <GridColumn :pc="4">
+      <div class="area">Area 4</div>
+    </GridColumn>
+    <GridColumn :pc="4">
+      <div class="area">Area 5</div>
+    </GridColumn>
+    <GridColumn :pc="4">
+      <div class="area">Area 6</div>
+    </GridColumn>
   </GridLayout>
 </template>
 
